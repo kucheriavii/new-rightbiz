@@ -1349,8 +1349,9 @@ body {
       width: 250px;
       z-index: 9;
       background-color: #fff;
-      margin-left: 0px;
+      margin-left: 12px;
       display: none;
+      border: 1px solid #bdd1dc;
     }
   &__menu-item{
 	display: flex;
@@ -1359,6 +1360,15 @@ body {
 	align-items: center;
     position: relative;
 	&:hover{
+        &:after{
+            content: "";
+            display: block;
+            width: 12px;
+            height: 58px;
+            position: absolute;
+            right: -12px;
+            z-index: 10;
+        }
         .submenu-wrap{
             background-color: #fff;
             display: block;
@@ -1373,6 +1383,14 @@ body {
           .nav-bar__menu-item:hover{
               .nav-bar__submenu{
                   display: block;
+                  .nav-bar__submenu{
+                      display: none;
+                     
+                      
+                  }
+                   .nav-bar__menu-item:hover{
+              .nav-bar__submenu{
+                  display: block;}}
               }
           }
         }

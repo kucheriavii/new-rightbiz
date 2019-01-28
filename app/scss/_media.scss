@@ -673,6 +673,11 @@
         padding-left: 5%;
         .nav-bar__menu-item{
             background-color: #fff !important;
+            &:hover{
+                &:after{
+                    //display: none;
+                }
+            }
             .nav-bar__submenu{
                 margin-bottom: 15px;
             }
