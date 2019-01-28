@@ -660,6 +660,24 @@
 	margin-top: 60px;
 	justify-content: space-between;
   }
+    .nav-bar__menu-item{
+        display: block;
+    }
+    .nav-bar__submenu{
+        position: static;
+        width: 90%;
+        padding: 0;
+        margin: 0;
+        margin-top: 15px;
+        padding-top: 15px;
+        padding-left: 5%;
+        .nav-bar__menu-item{
+            background-color: #fff !important;
+            .nav-bar__submenu{
+                margin-bottom: 15px;
+            }
+        }
+    }
 }
 
 // ≥576px

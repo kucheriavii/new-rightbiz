@@ -3,7 +3,7 @@
 }
 
 .company-news .company-news__main-news .company-news__main-news-header h3 {
-  font: 25px roboto-bold,sans-serif;
+  font: 25px/30px "roboto-bold" ,sans-serif;
   color: #084464;
   MAX-HEIGHT: 68px;
   display: block;
@@ -122,6 +122,78 @@
 
 .company-news .company-news__main-news h2 {
   width: 60%;
+}
+
+.big-menu {
+  margin-bottom: 50px;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+.big-menu__subitem {
+  width: 100%;
+  display: block;
+  margin-bottom: 15px;
+  font-size: 14px;
+  font-family: "roboto-bold", sans-serif;
+}
+
+.big-menu__subitem > .big-menu__item-link .arrow {
+  display: inline-block;
+  background-image: url("../img/icons/arrow-down-red.png");
+  min-width: 24px;
+  height: 24px;
+  margin-right: 15px;
+  margin-left: 22px;
+}
+
+.big-menu__subitem > .big-menu__item-link:before {
+  content: "";
+  display: none;
+}
+
+.company-news .button-red-arrow {
+  bottom: 40px;
+  right: 15px;
+  font-family: "roboto-bold", sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.contacts__wrap {
+  overflow: hidden;
+}
+
+.contacts__wrap .contacts__block:first-child {
+  margin-top: 70px;
+  margin-left: 5px;
+}
+
+.contacts__wrap .contacts__header-workdays:before {
+  margin-right: 24px;
+}
+
+.contacts__wrap .contacts-work__work-days, .contacts__wrap .contacts-work__holidays, .contacts__wrap .contacts__phone {
+  margin-left: 16px;
+}
+
+.contacts__wrap .contacts__header-phones:before, .contacts__wrap .contacts__header-address:before {
+  margin-right: 24px;
+}
+
+.contacts__wrap .contacts__header-phones, .contacts__wrap .contacts__header-address {
+  margin-left: 8px;
+}
+
+.contacts__wrap .contacts__wrap .cantacts__address {
+  padding-left: 80px;
+}
+
+.contacts__wrap h2 {
+  margin-bottom: 10px;
+  margin-top: 16px;
 }
 
 @media only screen and (max-width: 992px) {
