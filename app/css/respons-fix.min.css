@@ -1,0 +1,145 @@
+.header__top-wrapper {
+  height: 126px;
+}
+
+.main-menu__item {
+  padding-top: 12px;
+  height: 126px;
+}
+
+.main-menu__item a {
+  padding-left: 6px;
+}
+
+.contacts {
+  padding-left: 15px;
+}
+
+.slider-menu__text {
+  font-weight: bold;
+  padding-left: 13px;
+}
+
+.callback-form__submit {
+  padding-left: 8px;
+}
+
+.section-header {
+  margin-bottom: 15px;
+}
+
+.installation-item__image {
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.header__top-wrapper-fixed .main-menu__item .main-menu__link {
+  font: 13px "roboto-regular", sans-serif;
+}
+
+.header__top-wrapper-fixed {
+  padding-bottom: 5px;
+  height: 80px;
+}
+
+.header__top-wrapper-fixed .logo-header {
+  margin-right: 40px;
+}
+
+.footer-logo {
+  padding-left: 60px;
+  margin-top: -18px;
+}
+
+.footer-menu {
+  padding-left: 34px;
+  margin-top: -2px;
+}
+
+.footer-menu__item {
+  margin-right: 16px;
+}
+
+.header__top-wrapper-fixed .main-menu__item .main-menu__link {
+  font: 13px "roboto-bold", sans-serif;
+}
+
+.main-menu__item:hover {
+  border-bottom: 3px solid #f00;
+  margin-bottom: 2px;
+  padding-top: 4px;
+}
+
+.main-menu__item {
+  padding: 0px 11px;
+}
+
+.header__top-wrapper-fixed {
+  height: 80px;
+}
+
+.header__top-wrapper-fixed {
+  height: 70px;
+}
+
+.about-company__article-item {
+  font: 18px "roboto-regular", sans-serif;
+  color: #084464;
+}
+
+.footer-logo {
+  padding-left: 0px;
+  margin-top: -18px;
+}
+
+.footer-menu {
+  padding-left: 0;
+}
+
+.footer__social-networks {
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  padding: 0 25px;
+}
+
+.footer__social-networks-header {
+  padding-left: 25px;
+}
+
+@media (max-width: 1200px) {
+  .contacts {
+    padding-left: 0;
+  }
+  .main-menu__item {
+    padding-top: 12px;
+    height: 126px;
+  }
+  .main-menu__item a {
+    padding-left: 0px;
+  }
+  .footer-menu__item {
+    margin-right: 20px;
+  }
+  .main-menu__item {
+    padding: 0 6px;
+  }
+  .header__top-wrapper-fixed .main-menu__item .main-menu__link {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .installation-item__image {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
