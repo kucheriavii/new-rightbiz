@@ -86,6 +86,9 @@
 	width: 350px;
 	min-height: 400px;
   }
+    .main-page-articles .article-info{
+        margin-bottom: 10px;
+    }
 }
 
 // ≥992px
@@ -683,6 +686,114 @@
             }
         }
     }
+    .installation-item {
+        height: 200px;
+        font: 20px "roboto-medium", sans-serif;
+        text-decoration: none;
+        color: #084464;
+    }
+    /**************************************/
+    .callback-form .callback-form__text, .callback-form .question-form__text, .question-form .callback-form__text, .question-form .question-form__text{
+        font-size: 24px;
+    }
+    .about-company__img-wrap h2,.company-news .company-news__main-news h2,.main-page-articles .article__thumbnail {
+        height: 50px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 100% !important;
+        font-size: 18px;
+        overflow: hidden;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+    .company-news .button-red-arrow {
+        bottom: 40px;
+        right: 15px;
+        font-family: "roboto-bold", sans-serif;
+        font-size: 14px;
+        letter-spacing: 1px;
+        font-weight: bold;
+        padding-left: 15px;
+        padding-top: 9px;
+    }
+    .wrapper .company-news{
+        margin-bottom: 0;
+    }
+    .news-list-wrap{
+        margin-bottom: 0;
+    }
+    .big-menu.large-menu .big-menu__description{
+        margin-left: 0;
+    }
+    .big-menu.large-menu .big-menu__img-wrap{
+        padding-left: 0;
+    }
+    .category-item__img-wrap{
+        margin-bottom: 5px;
+    }
+    .category-item__img-link{
+        height: 270px;
+    }
+    .jobs__wrap .installation-item{
+        min-height: 280px;
+    }
+    .news-thumbnail__info {
+        position: absolute;
+        padding: 30px 50px 25px 30px;
+        background-color: #fff;
+        bottom: 35px;
+        right: 0;
+        width: 100%;
+        color: #084464;
+        padding: 5px;
+    }
+    .news-thumbnail__article-name {
+        font: 25px/25px "roboto-bold", sans-serif;
+    }
+    .question-form__inputs-wrap--large input {
+        width: 100%;
+        margin-bottom: 0px !important;
+    }
+    .question-form__inputs-wrap--large .question-form__inputs-wrap--right{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .installation-item__image{
+        height: 100px;
+    }
+    .installation-item__text{
+        height: 30px;
+    }
+    .installation-item{
+        height: 195px;
+    }
+    .brands .brands__list .brand__img {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .jobs__wrap .installation-item__text {
+        height: auto;
+        text-align: center;
+        min-height: 30px;
+    }
+    .jobs__wrap .installation-item {
+        min-height: 150px;
+        height: auto;
+        display: flex;
+        align-items: center;
+    }
+    .jobs__wrap .installation-item__image{
+        width: 100%;
+    }
+    .jobs__wrap .installation-item__text{
+        width: 100%;
+    }
+    
+    
 }
 
 // ≥576px
@@ -844,7 +955,43 @@
   .map-wrap{
 	margin-right: 0;
   }
-
+    .main-menu {
+        display: none;
+        background-color: rgba(0, 0, 0, 0.65);
+        height: 100vh;
+        position: relative;
+        z-index: 50;
+    }
+    .installation-item__image{
+        height: 100%;
+    }
+    .big-menu__img-wrap{
+        display: flex;
+        flex-wrap: nowrap;
+        padding: 6px 0;
+        height: 120px;
+    }
+    .article .article__main-text .article__text-wrap .right_pic .right_pic-text, .article .article__main-text .article__text-wrap .right_pic--big .right_pic-text{
+        margin-bottom: 10px;
+    }
+    .article .article__main-text .article__text-wrap .list--red-dots, .article .article__main-text .article__text-wrap .ol-list--red-dots{
+        margin-bottom: 20px;
+    }
+    .article .article__main-text .article__text-wrap h5.list-name{
+        margin-top: 10px;
+    }
+    .jobs__wrap .installation-item__image{
+        width: 60%;
+    }
+    .jobs__wrap .installation-item__wrapper .round-rarrow, .jobs__wrap .installation-item__wrapper .round-larrow {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        z-index: 999;
+        background-color: #fff;
+    }
+    /*888888888888888888888888888*/
+    
 }
 
 @media screen and (max-width: 425px){
@@ -861,6 +1008,101 @@
 	transform: translateX(50%);
   }
   /**********************/
+    .callback-form .callback-form__text, .callback-form .question-form__text, .question-form .callback-form__text, .question-form .question-form__text{
+        font-size: 24px;
+    }
+    .about-company__img-wrap h2,.company-news .company-news__main-news h2,.main-page-articles .article__thumbnail {
+        height: 50px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 100% !important;
+        font-size: 18px;
+        overflow: hidden;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+    .company-news .button-red-arrow {
+        bottom: 40px;
+        right: 15px;
+        font-family: "roboto-bold", sans-serif;
+        font-size: 14px;
+        letter-spacing: 1px;
+        font-weight: bold;
+        padding-left: 15px;
+        padding-top: 9px;
+    }
+    .wrapper .company-news{
+        margin-bottom: 0;
+    }
+    .news-list-wrap{
+        margin-bottom: 0;
+    }
+    .big-menu.large-menu .big-menu__description{
+        margin-left: 0;
+    }
+    .big-menu.large-menu .big-menu__img-wrap{
+        padding-left: 0;
+    }
+    .category-item__img-wrap{
+        margin-bottom: 5px;
+    }
+    .category-item__img-link{
+        height: 270px;
+    }
+    .jobs__wrap .installation-item{
+        min-height: 280px;
+    }
+    .news-thumbnail__info {
+        position: absolute;
+        padding: 30px 50px 25px 30px;
+        background-color: #fff;
+        bottom: 35px;
+        right: 0;
+        width: 100%;
+        color: #084464;
+        padding: 5px;
+    }
+    .news-thumbnail__article-name {
+        font: 25px/25px "roboto-bold", sans-serif;
+    }
+    .question-form__inputs-wrap--large input {
+        width: 100%;
+        margin-bottom: 0px !important;
+    }
+    .question-form__inputs-wrap--large .question-form__inputs-wrap--right{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .brands .brends-panel{
+        margin: 0 auto;
+    }
+    .question-form__wrap {
+        display: none;
+    }
+    .wrapper .company-news{
+        padding-top: 10px;
+    }
+    .company-news .company-news__main-news .company-news__main-news-header{
+        bottom: 0;
+    }
+    .brands__list .brands__item{
+        border: none;
+        height: 250px;
+    }
+    .news--catalog-list{
+        padding-top: 10px;
+    }
+    .list-red__item-num{
+        height: 60px;
+    }
+    .jobs__wrap .installation-item{
+        min-height: 150px;
+    }
+    .brands .brends-panel{
+        margin-bottom: 10px;
+    }
 }
 /*==========  Mobile First  ==========*/
 
