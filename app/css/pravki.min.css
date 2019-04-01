@@ -332,3 +332,57 @@
 .callback-form__inputs-wrap, .question-form__inputs-wrap {
   margin-top: 20px;
 }
+
+@media screen and (max-width: 575px) {
+  .installation-item__text {
+    min-height: 30px;
+    height: auto !important;
+  }
+  .installation-item {
+    height: auto;
+    margin-bottom: 0;
+  }
+  .installation-item.active .installation-item__link {
+    display: none;
+  }
+  .installation-item.active {
+    background-color: transparent;
+  }
+  .installation-item__image {
+    height: 80px;
+  }
+  .installation-item__image img {
+    vertical-align: middle;
+    border-style: none;
+    -o-object-fit: contain;
+       object-fit: contain;
+    display: block;
+    height: 70px;
+    width: 70px;
+  }
+  .installation-item__text {
+    font-size: 14px;
+  }
+  .article-wrap .col-12 {
+    display: none;
+  }
+  .article-wrap .col-12:nth-child(1) {
+    display: block;
+  }
+  .article-wrap .col-12:nth-child(2) {
+    display: block;
+  }
+  .main-articles-second-row .article-small {
+    display: none !important;
+  }
+  .main-page-articles .show-more-articles {
+    margin-top: 0px;
+  }
+  .footer__social-networks-header {
+    padding: 0 !important;
+  }
+  .main-menu .main-menu__item {
+    height: 50px;
+    border-bottom: 1px solid #fff;
+  }
+}
