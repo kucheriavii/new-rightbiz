@@ -244,6 +244,7 @@
   }
 }
 
+
 /*NEW MARGINS AND PADDINGS*/
 .callback-form__wrap, .question-form__wrap {
   margin-top: 10px;
@@ -332,6 +333,8 @@
 .callback-form__inputs-wrap, .question-form__inputs-wrap {
   margin-top: 20px;
 }
+
+
 
 @media screen and (max-width: 575px) {
   .installation-item__text {
