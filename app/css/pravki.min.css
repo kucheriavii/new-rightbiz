@@ -441,6 +441,9 @@
     display: -ms-flexbox;
     display: flex;
   }
+  .footer__social-networks .footer__social-item {
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 767.99px) {
@@ -468,5 +471,11 @@
   }
   .footer__social-networks .footer__social-item {
     margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .footer {
+    min-height: 200px;
   }
 }
