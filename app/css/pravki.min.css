@@ -242,6 +242,9 @@
   .company-news .company-news__main-news .company-news__main-news-header {
     right: 0;
   }
+    .main-page-articles .show-more-articles{
+        margin-bottom: 0;
+    }
 }
 
 /*NEW MARGINS AND PADDINGS*/
@@ -258,7 +261,15 @@
   margin-bottom: 20px;
   margin-top: 20px;
 }
-
+.main-page-articles .main-articles-second-row{
+    margin-bottom: 0;
+}
+.brand__img{
+    height: 80px;
+}
+.brands__list .brands__item{
+    height: 180px;
+}
 .brands {
   margin-top: 20px;
   padding-bottom: 0px;
