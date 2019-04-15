@@ -234,7 +234,9 @@
   margin-top: 64px;
   margin-bottom: 64px;
 }
-
+.brands__list .brands__item{
+    border: none !important;
+}
 @media only screen and (max-width: 992px) {
   .callback-form__inputs-wrap {
     width: 100%;
